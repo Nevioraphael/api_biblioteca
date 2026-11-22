@@ -135,7 +135,7 @@ Foram realizados testes das rotas e das validações:
 -   GET /livros/-1: 422 Unprocessable Entity.
 -   GET /livros/abc: 422 Unprocessable Entity.
 
-11. OBSERVACOES
+11. OBSERVAÇÔES
 
 A aplicação utiliza separação de responsabilidades: o modelo define e
 valida os dados, o repositório controla o acesso à coleção de livros, a
